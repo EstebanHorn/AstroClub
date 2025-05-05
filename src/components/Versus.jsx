@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { planets } from "../data/planets.json";
-import "./versus.css";
+import "./Versus.css";
 import RulerIcon from "../assets/vsIcons/ruler.svg";
 import ThermometerIcon from "../assets/vsIcons/thermometer.svg";
 import SatelliteIcon from "../assets/vsIcons/satellite.svg";
