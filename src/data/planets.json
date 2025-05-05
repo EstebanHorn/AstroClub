@@ -1,0 +1,382 @@
+{
+  "planets": [
+    {
+      "name": "Sol",
+      "url": "/sol",
+      "size": 150,
+      "imageUrl": "sol",
+      "description": "El Sol es la estrella central del sistema solar y proporciona luz y calor a los planetas que lo orbitan.",
+      "diameterKm": 1392000,
+      "distanceFromSunKm": 0,
+      "moons": 0,
+      "dayLengthHours": 609.12,
+      "yearLengthDays": 0,
+      "atmosphere": "Hidrógeno, Helio",
+      "averageTemperatureC": 5505,
+      "fact": "El Sol contiene el 99.8% de la masa total del sistema solar.",
+      "timeline": [
+        {
+          "titulo": "Nacimiento del Sol",
+          "anio": "4600 millones de años atrás",
+          "descripcion": "El Sol nació a partir del colapso gravitacional de una nube molecular gigante compuesta por gas y polvo interestelar. A medida que esta nube colapsaba bajo su propia gravedad, la materia se concentró en el centro, generando temperaturas y presiones extremadamente altas. Estas condiciones permitieron el inicio de las reacciones nucleares, dando origen a una protoestrella que eventualmente se convirtió en el Sol."
+        },
+        {
+          "titulo": "Formación del sistema solar",
+          "anio": "4500 millones de años atrás",
+          "descripcion": "Tras su formación, el joven Sol comenzó a influenciar gravitacionalmente su entorno. El material restante en el disco protoplanetario comenzó a agruparse y formar cuerpos más grandes, como planetas, lunas, asteroides y cometas. Esta etapa fue caótica, con constantes colisiones y fusiones que dieron lugar a la arquitectura actual del sistema solar."
+        },
+        {
+          "titulo": "Inicio de la secuencia principal",
+          "anio": "4000 millones de años atrás",
+          "descripcion": "El Sol entró en una fase de estabilidad llamada 'secuencia principal', durante la cual fusiona hidrógeno en helio en su núcleo. Esta fusión libera enormes cantidades de energía que se irradian en forma de luz y calor. Esta fase ha permitido el desarrollo y la evolución de la vida en la Tierra gracias a su relativa constancia."
+        },
+        {
+          "titulo": "Estado actual",
+          "anio": "Actualmente",
+          "descripcion": "Hoy en día, el Sol continúa en su etapa de secuencia principal. Tiene aproximadamente la mitad de su vida útil y mantiene una producción constante de energía. Su influencia sigue siendo vital para la estabilidad de las órbitas planetarias y el mantenimiento de condiciones habitables en la Tierra."
+        },
+        {
+          "titulo": "Fase final",
+          "anio": "5000 millones de años en el futuro",
+          "descripcion": "Cuando el hidrógeno en su núcleo se agote, el Sol se expandirá enormemente, convirtiéndose en una gigante roja. Durante esta etapa, engullirá posiblemente a Mercurio, Venus y la Tierra. Posteriormente, perderá sus capas externas en forma de nebulosa planetaria y el núcleo remanente se convertirá en una enana blanca: un objeto denso y caliente que se enfriará lentamente durante miles de millones de años."
+        }
+      ]
+    },
+    {
+      "name": "Mercurio",
+      "url": "/mercurio",
+      "size": 10,
+      "imageUrl": "mercurio",
+      "description": "Mercurio es el planeta más cercano al Sol y el más pequeño del sistema solar. Su superficie está llena de cráteres y no tiene atmósfera significativa.",
+      "diameterKm": 4879,
+      "distanceFromSunKm": 57900000,
+      "moons": 0,
+      "dayLengthHours": 1407.6,
+      "yearLengthDays": 88,
+      "atmosphere": "Oxígeno, sodio, hidrógeno (muy tenue)",
+      "averageTemperatureC": 167,
+      "fact": "Un día en Mercurio (rotación completa) dura más que su año orbital.",
+      "timeline": [
+        {
+          "titulo": "Formación de Mercurio",
+          "anio": "4500 millones de años atrás",
+          "descripcion": "Mercurio se formó en las etapas iniciales del sistema solar a partir de la acreción de polvo y roca. Su cercanía al Sol y su composición indican que perdió parte de su capa externa durante impactos tempranos, quedando con un núcleo metálico desproporcionadamente grande en comparación con su tamaño total."
+        },
+        {
+          "titulo": "Bombardeo intenso",
+          "anio": "4000 millones de años atrás",
+          "descripcion": "Durante el llamado 'Gran Bombardeo Tardío', Mercurio fue golpeado por numerosos asteroides y cometas. Estos impactos dejaron cráteres masivos como la Cuenca Caloris, una de las más grandes del sistema solar, y alteraron considerablemente su corteza superficial."
+        },
+        {
+          "titulo": "Enfriamiento del núcleo",
+          "anio": "3500 millones de años atrás",
+          "descripcion": "A medida que el núcleo metálico de Mercurio comenzó a enfriarse, el planeta se contrajo ligeramente. Esta contracción generó fallas y acantilados gigantescos en su superficie, algunos de los cuales se extienden por cientos de kilómetros, indicando una evolución geológica temprana."
+        },
+        {
+          "titulo": "Estado actual",
+          "anio": "Actualmente",
+          "descripcion": "Mercurio es un planeta rocoso sin atmósfera densa, lo que provoca temperaturas extremas: desde más de 400 °C durante el día hasta -180 °C por la noche. Su superficie permanece inalterada por la erosión atmosférica, conservando los impactos de su historia pasada. También posee un tenue campo magnético, inusual para un planeta tan pequeño."
+        },
+        {
+          "titulo": "Futuro incierto",
+          "anio": "1000 millones de años en el futuro",
+          "descripcion": "Cuando el Sol comience a expandirse hacia su fase de gigante roja, Mercurio podría ser el primer planeta en ser engullido por su atmósfera externa. Alternativamente, la alteración gravitacional de esta expansión podría cambiar su órbita o incluso expulsarlo del sistema solar."
+        }
+      ]
+    },
+    {
+      "name": "Venus",
+      "url": "/venus",
+      "size": 22,
+      "imageUrl": "venus",
+      "description": "Venus es el segundo planeta desde el Sol y es similar en tamaño a la Tierra. Tiene una atmósfera densa y caliente, lo que lo convierte en un lugar inhóspito.",
+      "diameterKm": 12104,
+      "distanceFromSunKm": 108200000,
+      "moons": 0,
+      "dayLengthHours": 5832.5,
+      "yearLengthDays": 225,
+      "atmosphere": "Dióxido de carbono, nitrógeno",
+      "averageTemperatureC": 464,
+      "fact": "Venus gira en dirección opuesta a la mayoría de los planetas del sistema solar.",
+      "timeline": [
+        {
+          "titulo": "Formación de Venus",
+          "anio": "4500 millones de años atrás",
+          "descripcion": "Venus se formó a partir del mismo disco protoplanetario que dio origen a los demás planetas. Su tamaño, masa y composición inicial eran muy similares a los de la Tierra, lo que ha llevado a muchos científicos a considerarlo su 'planeta hermano'. Es posible que haya tenido océanos de agua líquida y condiciones más templadas en su juventud."
+        },
+        {
+          "titulo": "Efecto invernadero extremo",
+          "anio": "3000 millones de años atrás",
+          "descripcion": "La acumulación de dióxido de carbono en la atmósfera de Venus, combinada con la falta de un campo magnético fuerte que protegiera el planeta del viento solar, provocó una pérdida gradual del agua y un aumento exponencial de la temperatura superficial. Este proceso dio inicio al efecto invernadero descontrolado que transformó completamente el planeta."
+        },
+        {
+          "titulo": "Evaporación de océanos",
+          "anio": "1000 millones de años atrás",
+          "descripcion": "Las temperaturas crecientes alcanzaron niveles suficientes para evaporar cualquier resto de agua superficial. El vapor de agua, a su vez, actuó como gas de efecto invernadero adicional, acelerando aún más el calentamiento del planeta. Esto selló el destino de Venus como un mundo seco, tóxico e inhabitable."
+        },
+        {
+          "titulo": "Estado actual",
+          "anio": "Actualmente",
+          "descripcion": "Venus posee la atmósfera más densa del sistema solar, compuesta casi enteramente de dióxido de carbono, con nubes espesas de ácido sulfúrico. La presión en su superficie es unas 90 veces la de la Tierra, y las temperaturas superan los 460 °C, lo suficiente como para derretir plomo. Su superficie está dominada por vastas llanuras volcánicas y pocos cráteres, lo que indica actividad geológica relativamente reciente."
+        },
+        {
+          "titulo": "Final volcánico",
+          "anio": "1000 millones de años en el futuro",
+          "descripcion": "Si bien aún muestra signos de actividad volcánica, se espera que con el tiempo su interior se enfríe y su geología se detenga por completo. Venus podría terminar como un planeta geológicamente muerto, cubierto de antiguos flujos de lava y envuelto en su atmósfera sofocante."
+        }
+      ]
+    },
+    {
+      "name": "Tierra",
+      "url": "/tierra",
+      "size": 24,
+      "imageUrl": "tierra",
+      "description": "La Tierra es el tercer planeta desde el Sol y el único conocido que alberga vida. Tiene una atmósfera rica en oxígeno y agua líquida.",
+      "diameterKm": 12742,
+      "distanceFromSunKm": 149600000,
+      "moons": 1,
+      "dayLengthHours": 24,
+      "yearLengthDays": 365.25,
+      "atmosphere": "Nitrógeno, oxígeno, argón",
+      "averageTemperatureC": 15,
+      "fact": "La Tierra es el único planeta con placas tectónicas activas.",
+      "timeline": [
+        {
+          "titulo": "Nacimiento de la Tierra",
+          "anio": "4500 millones de años atrás",
+          "descripcion": "La Tierra se formó a partir de la acumulación de polvo y gas del disco protoplanetario que rodeaba al joven Sol. Poco después, una colisión catastrófica con un protoplaneta del tamaño de Marte, conocido como Theia, expulsó material que se fusionó para formar la Luna. Este impacto también contribuyó a la inclinación axial y rotación actual del planeta."
+        },
+        {
+          "titulo": "Aparición de la vida",
+          "anio": "3800 millones de años atrás",
+          "descripcion": "En los océanos primitivos de la Tierra, surgieron las primeras formas de vida unicelular. Estas bacterias y arqueas comenzaron a transformar lentamente la atmósfera mediante procesos como la fotosíntesis, sentando las bases para la evolución de organismos más complejos."
+        },
+        {
+          "titulo": "Explosión cámbrica",
+          "anio": "541 millones de años atrás",
+          "descripcion": "Durante este periodo, se produjo una rápida diversificación de la vida animal en los océanos. Aparecieron la mayoría de los filos animales modernos, como artrópodos, moluscos y cordados, en un lapso geológico relativamente corto. Fue un punto clave en la historia de la biodiversidad terrestre."
+        },
+        {
+          "titulo": "Estado actual",
+          "anio": "Actualmente",
+          "descripcion": "La Tierra es el único planeta conocido que alberga vida en una vasta variedad de formas, desde microorganismos hasta humanos. Posee una atmósfera rica en oxígeno, agua líquida abundante y una tectónica activa que moldea la superficie continuamente. Es un planeta dinámico con ecosistemas interconectados y en constante cambio."
+        },
+        {
+          "titulo": "Futuro cálido",
+          "anio": "1000 millones de años en el futuro",
+          "descripcion": "A medida que el Sol continúa su evolución, incrementará su luminosidad, lo que provocará un aumento gradual de las temperaturas en la Tierra. Eventualmente, esto causará la evaporación de los océanos y hará que la superficie sea demasiado caliente para albergar vida tal como la conocemos. La biosfera colapsará lentamente en un proceso irreversible."
+        }
+      ]
+    },
+    {
+      "name": "Marte",
+      "url": "/marte",
+      "size": 14,
+      "imageUrl": "marte",
+      "description": "Marte es el cuarto planeta desde el Sol y es conocido como el 'planeta rojo' debido a su color característico. Tiene montañas, valles y evidencia de agua en su superficie.",
+      "diameterKm": 6779,
+      "distanceFromSunKm": 227900000,
+      "moons": 2,
+      "dayLengthHours": 24.6,
+      "yearLengthDays": 687,
+      "atmosphere": "Dióxido de carbono, nitrógeno",
+      "averageTemperatureC": -63,
+      "fact": "Tiene el volcán más grande del sistema solar: Olympus Mons.",
+      "timeline": [
+        {
+          "titulo": "Formación de Marte",
+          "anio": "4500 millones de años atrás",
+          "descripcion": "Marte se formó a partir de los remanentes del disco protoplanetario que rodeaba al joven Sol. En sus primeros millones de años, era geológicamente activo, con un núcleo fundido, volcanismo abundante y una atmósfera más densa. Es probable que haya tenido condiciones aptas para el agua líquida en su superficie."
+        },
+        {
+          "titulo": "Presencia de agua",
+          "anio": "3500 millones de años atrás",
+          "descripcion": "Durante este periodo, existieron ríos, lagos y posiblemente un océano en el hemisferio norte. Se formaron valles fluviales, deltas y minerales hidratados que hoy ofrecen pruebas claras de la interacción prolongada con el agua líquida."
+        },
+        {
+          "titulo": "Pérdida de atmósfera",
+          "anio": "3000 millones de años atrás",
+          "descripcion": "La pérdida de su campo magnético permitió que el viento solar erosionara lentamente la atmósfera marciana. Con menos presión y sin efecto invernadero suficiente, el planeta se volvió árido, frío y seco, terminando con la posibilidad de agua estable en la superficie."
+        },
+        {
+          "titulo": "Estado actual",
+          "anio": "Actualmente",
+          "descripcion": "Marte es un desierto helado, con temperaturas extremas y una atmósfera delgada compuesta principalmente por dióxido de carbono. A pesar de ello, existen indicios de agua salobre líquida en ciertas épocas del año, así como vastos depósitos de hielo subterráneo en las regiones polares y medias latitudes."
+        },
+        {
+          "titulo": "Posible colonización",
+          "anio": "500 millones de años en el futuro",
+          "descripcion": "A largo plazo, Marte es considerado el mejor candidato para una eventual colonización humana. Con avances tecnológicos, podría iniciarse un proceso de terraformación, aumentando la presión atmosférica, temperatura y presencia de agua líquida, transformándolo en un entorno más habitable."
+        }
+      ]
+    },
+    {
+      "name": "Júpiter",
+      "url": "/jupiter",
+      "size": 100,
+      "imageUrl": "jupiter",
+      "description": "Júpiter es el planeta más grande del sistema solar y es conocido por su Gran Mancha Roja, una tormenta gigante. Tiene un sistema de anillos y muchas lunas.",
+      "diameterKm": 139820,
+      "distanceFromSunKm": 778500000,
+      "moons": 95,
+      "dayLengthHours": 9.9,
+      "yearLengthDays": 4333,
+      "atmosphere": "Hidrógeno, helio",
+      "averageTemperatureC": -145,
+      "fact": "Júpiter tiene más de 90 lunas, siendo Ganímedes la más grande del sistema solar.",
+      "timeline": [
+        {
+          "titulo": "Formación de Júpiter",
+          "anio": "4600 millones de años atrás",
+          "descripcion": "Júpiter se formó en las primeras etapas del sistema solar a partir del colapso de gas y polvo. Gracias a su núcleo rocoso en crecimiento, atrajo rápidamente grandes cantidades de hidrógeno y helio, convirtiéndose en el planeta más masivo, con más del doble de masa que todos los demás planetas juntos."
+        },
+        {
+          "titulo": "Migración planetaria",
+          "anio": "4500 millones de años atrás",
+          "descripcion": "Modelos como el 'Gran Tack' sugieren que Júpiter se desplazó hacia el Sol antes de retroceder, perturbando el cinturón de asteroides y afectando la formación de planetas terrestres, incluida la Tierra. Su movimiento ayudó a dar forma a la arquitectura actual del sistema solar."
+        },
+        {
+          "titulo": "Captura de lunas",
+          "anio": "4000 millones de años atrás",
+          "descripcion": "Durante esta etapa, las grandes lunas galileanas —Ío, Europa, Ganímedes y Calisto— se formaron en un disco de gas que rodeaba a Júpiter. Su poderosa gravedad también permitió la captura de lunas irregulares más pequeñas procedentes del cinturón de asteroides o del sistema solar exterior."
+        },
+        {
+          "titulo": "Estado actual",
+          "anio": "Actualmente",
+          "descripcion": "Júpiter es un gigante gaseoso con más de 90 lunas conocidas, un intenso campo magnético y la atmósfera más dinámica del sistema solar. Su característica Gran Mancha Roja es una tormenta anticiclónica que ha durado siglos. Emite más calor del que recibe y su radiación es letal para sondas no protegidas."
+        },
+        {
+          "titulo": "Influencia futura",
+          "anio": "1000 millones de años en el futuro",
+          "descripcion": "Júpiter continuará siendo una barrera natural contra asteroides y cometas, desviándolos o capturándolos con su gravedad. Su presencia podría seguir protegiendo a los planetas interiores, incluida la Tierra, de impactos catastróficos."
+        }
+      ]
+    },
+    {
+      "name": "Saturno",
+      "url": "/saturno",
+      "size": 85,
+      "imageUrl": "saturno",
+      "description": "Saturno es famoso por sus impresionantes anillos, que están compuestos de hielo y partículas de roca. Es el segundo planeta más grande del sistema solar.",
+      "diameterKm": 116460,
+      "distanceFromSunKm": 1433000000,
+      "moons": 145,
+      "dayLengthHours": 10.7,
+      "yearLengthDays": 10759,
+      "atmosphere": "Hidrógeno, helio",
+      "averageTemperatureC": -178,
+      "fact": "Sus anillos se extienden hasta 282 mil kilómetros, pero tienen menos de 1 km de espesor.",
+      "timeline": [
+        {
+          "titulo": "Nacimiento de Saturno",
+          "anio": "4600 millones de años atrás",
+          "descripcion": "Gigante gaseoso con núcleo rocoso, compuesto principalmente de hidrógeno y helio."
+        },
+        {
+          "titulo": "Formación de anillos",
+          "anio": "1000 millones de años atrás",
+          "descripcion": "Posible destrucción de una luna dio origen a su sistema de anillos."
+        },
+        {
+          "titulo": "Reorganización orbital",
+          "anio": "400 millones de años atrás",
+          "descripcion": "Interacción gravitacional con lunas modifica su sistema satelital."
+        },
+        {
+          "titulo": "Estado actual",
+          "anio": "Actualmente",
+          "descripcion": "Famoso por sus anillos y por lunas interesantes como Titán y Encélado."
+        },
+        {
+          "titulo": "Pérdida de anillos",
+          "anio": "500 millones de años en el futuro",
+          "descripcion": "Sus anillos se irán desintegrando y cayendo hacia el planeta."
+        }
+      ]
+    },
+    {
+      "name": "Urano",
+      "url": "/urano",
+      "size": 45,
+      "imageUrl": "urano",
+      "description": "Urano es un gigante gaseoso con un color azul distintivo debido a la presencia de metano en su atmósfera. Su eje de rotación está inclinado, lo que lo hace único.",
+      "diameterKm": 50724,
+      "distanceFromSunKm": 2871000000,
+      "moons": 27,
+      "dayLengthHours": 17.2,
+      "yearLengthDays": 30687,
+      "atmosphere": "Hidrógeno, helio, metano",
+      "averageTemperatureC": -224,
+      "fact": "Urano rota de lado, casi perpendicular a su órbita.",
+      "timeline": [
+        {
+          "titulo": "Formación de Urano",
+          "anio": "4500 millones de años atrás",
+          "descripcion": "Urano se formó como un gigante helado con una inclinación axial extrema, lo que significa que gira casi de costado en comparación con los otros planetas. Se cree que esta inclinación se debe a una colisión gigante con otro cuerpo del sistema solar temprano, lo que alteró su orientación axial."
+        },
+        {
+          "titulo": "Congelación externa",
+          "anio": "4000 millones de años atrás",
+          "descripcion": "Debido a su distancia extrema del Sol, la atmósfera exterior de Urano se congeló, lo que resultó en la formación de nubes de metano y otros gases fríos. A pesar de ser un gigante gaseoso, su atmósfera es fría, con temperaturas de hasta -224°C, las más bajas de cualquier planeta en el sistema solar."
+        },
+        {
+          "titulo": "Nacimiento de anillos",
+          "anio": "1000 millones de años atrás",
+          "descripcion": "Urano posee un sistema de anillos pequeños y oscuros, que se cree que se formaron hace aproximadamente 1000 millones de años. Estos anillos son mucho menos prominentes que los de Saturno, pero aún así son un aspecto distintivo del planeta, compuestos principalmente por partículas de hielo y roca."
+        },
+        {
+          "titulo": "Estado actual",
+          "anio": "Actualmente",
+          "descripcion": "Urano continúa su rotación inclinada de manera extrema, girando sobre su lado con una atmósfera compuesta principalmente de hidrógeno, helio y metano. La atmósfera es estable, pero fría, y tiene vientos muy fuertes en su zona ecuatorial. Su interior es cálido, pero la falta de actividad visible hace que su clima sea muy tranquilo comparado con otros planetas."
+        },
+        {
+          "titulo": "Inercia térmica",
+          "anio": "2000 millones de años en el futuro",
+          "descripcion": "A medida que Urano envejece, es probable que pierda aún más calor y actividad interna. Esta 'inercia térmica' podría hacer que el planeta se enfríe progresivamente, disminuyendo la emisión de calor hacia el espacio. Esto podría llevar a una disminución en su actividad atmosférica, estabilizando aún más su clima."
+        }
+      ]
+    },
+    {
+      "name": "Neptuno",
+      "url": "/neptuno",
+      "size": 43,
+      "imageUrl": "neptuno",
+      "description": "Neptuno es el planeta más alejado del Sol y es conocido por su color azul intenso. Tiene vientos extremadamente fuertes y un sistema de anillos.",
+      "diameterKm": 49244,
+      "distanceFromSunKm": 4495000000,
+      "moons": 14,
+      "dayLengthHours": 16.1,
+      "yearLengthDays": 60190,
+      "atmosphere": "Hidrógeno, helio, metano",
+      "averageTemperatureC": -214,
+      "fact": "Los vientos de Neptuno pueden superar los 2.000 km/h, los más rápidos del sistema solar.",
+      "timeline": [
+        {
+          "titulo": "Formación de Neptuno",
+          "anio": "4500 millones de años atrás",
+          "descripcion": "Neptuno se formó más allá de Urano, en una región donde la densidad de materiales fue lo suficientemente alta para crear un gigante helado. Su masa suficiente le permitió atraer y retener gases livianos como el hidrógeno y el helio, lo que lo convirtió en uno de los dos gigantes helados del sistema solar, junto con Urano."
+        },
+        {
+          "titulo": "Captura de Tritón",
+          "anio": "4000 millones de años atrás",
+          "descripcion": "Neptuno atrapó a su luna más grande, Tritón, a través de su fuerte campo gravitacional. Tritón es único porque su órbita es retrógrada, lo que sugiere que fue capturada por Neptuno en lugar de haberse formado a su alrededor. Este evento alteró el sistema de lunas de Neptuno, resultando en la órbita inusual de Tritón."
+        },
+        {
+          "titulo": "Tormentas violentas",
+          "anio": "2000 millones de años atrás",
+          "descripcion": "Neptuno es conocido por sus intensas tormentas atmosféricas, que incluyen grandes ciclones y vientos extremadamente rápidos. Durante los últimos 2000 millones de años, su atmósfera ha sido un lugar de sistemas de vientos turbulentos, con el vórtice de la Gran Mancha Oscura como uno de los fenómenos más destacados."
+        },
+        {
+          "titulo": "Estado actual",
+          "anio": "Actualmente",
+          "descripcion": "Neptuno sigue siendo un gigante helado, con una atmósfera compuesta principalmente de hidrógeno, helio y metano. Es el planeta con los vientos más rápidos conocidos en el sistema solar, con ráfagas que superan los 2.000 km/h. Su atmósfera presenta una coloración azul brillante debido al metano, que absorbe las longitudes de onda rojas de la luz solar."
+        },
+        {
+          "titulo": "Condensación atmosférica",
+          "anio": "2000 millones de años en el futuro",
+          "descripcion": "A medida que Neptuno continúa enfriándose, se espera que parte de su atmósfera exterior se solidifique. Este proceso de condensación podría llevar a una disminución de la actividad atmosférica, reduciendo las tormentas violentas y la dinámica de los vientos que actualmente caracterizan a este planeta."
+        }
+      ]
+    }
+  ]
+}

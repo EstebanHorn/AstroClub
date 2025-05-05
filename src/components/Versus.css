@@ -1,0 +1,195 @@
+.versus-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 2rem;
+  gap: 2rem;
+  font-family: var(--font-text);
+}
+
+@media screen and (max-width: 825px) {
+  .versus-container {
+    padding: 0.5rem;
+    gap: 1rem;
+  }
+}
+
+.planet-info-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  width: 100%;
+}
+.select-planet {
+  width: 250px;
+  padding: 0.5rem 1rem;
+  background-color: var(--color-vintage-beige);
+  border: 2px solid var(--color-carmine);
+  border-radius: 8px;
+  color: var(--color-soft-black);
+  font-size: 1.5rem;
+  font-family: "Georgia", serif;
+  box-shadow: -3px 3px 1px var(--color-soft-black);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+select:focus {
+  outline: none;
+  border-color: var(--color-carmine);
+}
+
+select option {
+  background-color: var(--color-vintage-beige);
+  color: var(--color-soft-black);
+  font-size: 1.5rem;
+}
+
+/* Esto funciona mejor para WebKit browsers */
+select option:checked {
+  background-color: var(--color-carmine);
+  color: var(--color-vintage-beige);
+}
+
+select option:hover {
+  background-color: var(--color-carmine);
+  color: var(--color-vintage-beige);
+}
+
+.title {
+  color: var(--color-gold);
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-family: var(--font-title);
+}
+
+@media screen and (max-width: 825px) {
+  .title {
+    font-size: 2rem;
+  }
+  
+}
+
+.planet-title-actual {
+  color: var(--color-deep-blue);
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-family: var(--font-title);
+}
+
+.planet-title-vs {
+  color: var(--color-carmine);
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-family: var(--font-title);
+}
+
+.planet-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.planet-grid {
+  display: grid;
+  grid-template-columns: repeat(1fr, minmax(200px, 1fr));
+  gap: 0;
+  width: 60%;
+}
+
+@media screen and (max-width: 825px) {
+  .planet-grid {
+    width: 100%;
+    gap: 0.5rem;
+    margin-top: 10px;
+  }
+}
+
+.planet-item {
+  padding: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.planet-item img {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 825px) {
+  .planet-item {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .planet-item p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.planet-compare-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 825px) {
+  .planet-compare-container {
+    padding: 0.5rem;
+    justify-content: space-around;
+    gap: 0;
+    width: 90%;
+  }
+}
+
+.planet-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.planet-img.ac {
+  width: calc(var(--planet-scale) * 800px);
+  object-fit: contain;
+  height: auto;
+}
+
+.planet-img.vs {
+  width: calc(var(--planet-scale-vs) * 800px);
+  object-fit: contain;
+  height: auto;
+}
+
+@media screen and (max-width: 825px) {
+  .planet-img.ac {
+    width: calc(var(--planet-scale) * 250px);
+  }
+  .planet-img.vs {
+    width: calc(var(--planet-scale-vs) * 250px);
+  }
+}
+
+.planet-name {
+  font-size: 1rem;
+  color: var(--color-soft-black);
+  margin-top: 0.3rem;
+}

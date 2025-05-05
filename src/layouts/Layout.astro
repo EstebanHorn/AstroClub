@@ -1,0 +1,57 @@
+---
+import '@fontsource/bungee';
+import '@fontsource-variable/ibm-plex-sans';
+import Header from '../components/Header.astro';
+import { ViewTransitions } from 'astro:transitions';
+---
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/ico" href="/favicon.ico" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astroclub</title>
+		<ViewTransitions />
+	</head>
+	<body>
+		<Header/>
+		<slot />
+	</body>
+</html>
+
+<style is:global>
+	
+	:root {
+  /* 🎨 Colores retro espaciales */
+  --color-carmine: #C23B22;       /* Rojo Carmín - para botones o acentos */
+  --color-gold: #f5c32c;          /* Amarillo Oro - títulos, brillos */
+  --color-deep-blue: #223B70;     /* Azul Profundo - fondo oscuro */
+  --color-vintage-beige: #f5e7c9; /* Beige Vintage - fondo claro */
+  --color-sepia-gray: #A3957D;    /* Gris Sepia - detalles secundarios */
+  --color-soft-black: #1B1B1B;    /* Negro Suave - texto o fondo */
+  --color-bone-white: #FBF8EF;    /* Blanco Hueso - texto claro o tarjetas */
+
+  /* 🖋️ Tipografías */
+  --font-title: 'Bungee', system-ui;
+  --font-text: 'IBM Plex Sans Variable', sans-serif;
+	}
+
+	html,
+	body {
+		background-color: var(--color-vintage-beige);
+	  background-image: radial-gradient(#0000000a 0.5px, transparent 0);
+  	background-size: 7px 7px;
+		font-family: var(--font-text);
+		color: var(--color-soft-black);
+		margin: 0;
+		width: auto;
+		height: auto;
+	}
+
+	.title-global {
+		text-shadow:  -5px 2px 1px var(--color-soft-black), 0px 0px 1px var(--color-soft-black);
+		letter-spacing: 2px;
+		font-family: var(--font-title);
+	}
+</style>
